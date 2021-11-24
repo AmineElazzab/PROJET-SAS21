@@ -22,7 +22,7 @@ void Introduire_un_compte_bancaire()
 {
     
     int i=n; // n=nomber des comptes deja enregestrer 
-        printf("\n\n\t\t\t\t\t /////***** Introduire un compte bancaire *****/////\n\t\t\t\t\t\t-----------------------------------\n");
+        printf("\n\n\t\t\t\t\t /////***** Introduire un compte bancaire *****/////\n");
         printf("**Entrer CIN** :  ");
         scanf("%s", cpt[i].CIN);
         printf("**Entrer Nom**  : ");
@@ -177,7 +177,7 @@ void POA()
     {
         printf("\t%s \t%s \t%s \t%.2f\n",cpt[i].CIN,cpt[i].Nom,cpt[i].Prenom,cpt[i].Montant);
     }
-    system("pause");  //kaytssna ta kandir chi haja
+    system("pause"); 
 }
 ///////////////////////////////// Par Ordre Descendant /////////////////////////////////////
 void POD()
@@ -237,7 +237,7 @@ void POA1()
         if(cpt[i].Montant>y)
         printf("\t%s \t%s \t%s \t%.2f\n",cpt[i].CIN,cpt[i].Nom,cpt[i].Prenom,cpt[i].Montant);
     }
-    system("pause");  //kaytssna ta kandir chi haja
+    system("pause");  
 }
 //////////////////Par Ordre Descendant (les comptes bancaires ayant un montant supérieur à un chiffre introduit)////////////////////////////
 void POD1()
@@ -269,7 +269,7 @@ void POD1()
         if(cpt[i].Montant>y)
         printf("\t%s \t%s \t%s \t%.2f\n",cpt[i].CIN,cpt[i].Nom,cpt[i].Prenom,cpt[i].Montant);
     }
-    system("pause");  //kaytssna ta kandir chi haja
+    system("pause");  
 }
 ////////////////Recherche par CIN/////////////////////
 void Recherche_par_CIN()
